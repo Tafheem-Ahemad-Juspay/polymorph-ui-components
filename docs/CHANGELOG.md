@@ -2,12 +2,13 @@
 based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/sinha-sahil/polymorph-ui-components/compare/0.10.2...HEAD)
+## [Unreleased](https://github.com/sinha-sahil/polymorph-ui-components/compare/0.11.0...HEAD)
 
-- Choicebox: --choicebox-flex-direction (default row); row-reverse puts the indicator first
-- docs: the variable in the Choicebox table and the changelog
-- demo: an indicator-first terms box
-- Choicebox: in `radio` mode, clicking an already-selected card fires `onclick(true)` so pickers can confirm the current choice
+- clicking a selected radio choicebox, or pressing Enter or Space on it, now fires onclick(true)
+- the selection itself does not change
+- update the Choicebox docs and changelog
+
+## [0.11.0](https://github.com/sinha-sahil/polymorph-ui-components/compare/0.10.2...0.11.0) - 15 October 2026
 
 ## [0.10.2](https://github.com/sinha-sahil/polymorph-ui-components/compare/0.10.1...0.10.2) - 10 October 2026
 
