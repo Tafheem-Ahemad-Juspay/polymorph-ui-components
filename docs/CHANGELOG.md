@@ -2,12 +2,14 @@
 based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/), and this project adheres to
 [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
-## [Unreleased](https://github.com/sinha-sahil/polymorph-ui-components/compare/0.11.1...HEAD)
+## [Unreleased](https://github.com/sinha-sahil/polymorph-ui-components/compare/0.12.0...HEAD)
 
-- Sheet: --sheet-header-display (default flex); none hides the header, title still names the dialog
-- Badge: --badge-img-filter and --badge-img-opacity for the icon image
-- Button: --button-transition
-- docs: the new variables in each component table and a Sheet accessibility note
+- the toggle's text is now the switch's accessible name, so screen readers announce it
+- clicking the text flips the switch, as with checkbox
+- add --toggle-container-width (default fit-content) and --toggle-container-justify-content
+- update the Toggle docs
+
+## [0.12.0](https://github.com/sinha-sahil/polymorph-ui-components/compare/0.11.1...0.12.0) - 27 November 2026
 
 ## [0.11.1](https://github.com/sinha-sahil/polymorph-ui-components/compare/0.11.0...0.11.1) - 26 November 2026
 
